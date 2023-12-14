@@ -1,24 +1,24 @@
 // list of all questions, choices, and answers
 var questions = [
     {
-      title: 'Commonly used data types DO NOT include:',
-      choices: ['strings', 'booleans', 'alerts', 'numbers'],
-      answer: 'alerts',
+      title: 'What is the primary purpose of JavaScript?',
+      choices: ['Styling web pages', 'Enhancing the structure of HTML', 'Adding interactivity to web pages', 'Managing database operations'],
+      answer: 'Adding interactivity to web pages',
     },
     {
-      title: 'The condition in an if / else statement is enclosed within ____.',
-      choices: ['quotes', 'curly brackets', 'parentheses', 'square brackets'],
-      answer: 'parentheses',
+      title: 'How do you declare a variable in JavaScript?',
+      choices: ['var variableName', 'let variableName', 'const variableName', 'All of the above'],
+      answer: 'All of the above',
     },
     {
-      title: 'Arrays in JavaScript can be used to store ____.',
+      title: 'What is the correct way to write a comment in JavaScript?',
       choices: [
-        'numbers and strings',
-        'other arrays',
-        'booleans',
-        'all of the above',
+        '// This is a comment',
+        '<!-- This is a comment -->',
+        '/* This is a comment */',
+        '# This is a comment',
       ],
-      answer: 'all of the above',
+      answer: '// This is a comment',
     },
     {
       title:
@@ -28,9 +28,9 @@ var questions = [
     },
     {
       title:
-        'A very useful tool used during development and debugging for printing content to the debugger is:',
-      choices: ['JavaScript', 'terminal / bash', 'for loops', 'console.log'],
-      answer: 'console.log',
+        'How do you create a function in JavaScript?',
+      choices: ['function: myFunction()', 'create function myFunction()', 'function myFunction()', 'declare function: myFunction()'],
+      answer: 'function myFunction()',
     },
   ];
   
